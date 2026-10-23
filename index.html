@@ -1,0 +1,512 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice & Bite | Food Ordering</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Spice <span>&</span> Bite</a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#restaurant">Restaurant</a></li>
+                <li><a href="#categories">Cuisines</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cart" class="cart-link">Cart 🛒</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="eyebrow">GOOD FOOD, GOOD MOOD</p>
+            <h1>Your Favourite Food,<br>
+                <span>Delivered with Love.</span>
+            </h1>
+            <p class="hero-description">
+                From traditional Indian flavours to Italian classics
+                and Chinese favourites, discover food for every craving.
+            </p>
+            <div class="hero-buttons">
+                <a href="#categories" class="btn btn-primary">Explore Cuisines</a>
+                <a href="#menu" class="btn btn-outline">View Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESTAURANT INFORMATION -->
+    <section class="restaurant-section" id="restaurant">
+        <div class="restaurant-info">
+            <div>
+                <p class="eyebrow">WELCOME TO SPICE & BITE</p>
+                <h2>A World of Flavours</h2>
+                <p>
+                    Enjoy delicious Indian, Italian, Chinese and fast-food
+                    favourites in one place.
+                </p>
+            </div>
+
+            <div class="restaurant-stats">
+                <div class="stat">
+                    <strong>4.8 ★</strong>
+                    <span>Sample Rating</span>
+                </div>
+                <div class="stat">
+                    <strong>30–40</strong>
+                    <span>Min. Delivery</span>
+                </div>
+                <div class="stat">
+                    <strong>₹200</strong>
+                    <span>Sample Price for Two</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEARCH -->
+    <section class="search-section">
+        <div class="section-heading">
+            <p class="eyebrow">FIND YOUR FAVOURITE</p>
+            <h2>What Are You Craving Today?</h2>
+        </div>
+
+        <form class="search-bar">
+            <span>🔍</span>
+            <input type="search" placeholder="Discover pizza, biryani, noodles..."
+                   aria-label="Search food">
+            <button type="submit" class="search-btn">Explore Menu</button>
+        </form>
+    </section>
+
+    <!-- CUISINE CATEGORIES -->
+    <section class="categories-section" id="categories">
+        <div class="section-heading">
+            <p class="eyebrow">EXPLORE THE WORLD OF FOOD</p>
+            <h2>Choose Your Cuisine</h2>
+            <p>Click any category to explore its delicious menu.</p>
+        </div>
+
+        <div class="category-grid">
+            <a href="#italian" class="category-card">
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80"
+                     alt="Italian pizza">
+                <div class="category-content">
+                    <h3>Italian 🇮🇹</h3>
+                    <p>Pizza, pasta and garlic bread</p>
+                    <span class="explore-link">Explore Menu →</span>
+                </div>
+            </a>
+
+            <a href="#indian" class="category-card">
+                <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=600&q=80"
+                     alt="Indian biryani">
+                <div class="category-content">
+                    <h3>Indian 🇮🇳</h3>
+                    <p>Biryani, curry and naan</p>
+                    <span class="explore-link">Explore Menu →</span>
+                </div>
+            </a>
+
+            <a href="#chinese" class="category-card">
+                <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=600&q=80"
+                     alt="Chinese dumplings">
+                <div class="category-content">
+                    <h3>Chinese 🥢</h3>
+                    <p>Noodles, fried rice and momos</p>
+                    <span class="explore-link">Explore Menu →</span>
+                </div>
+            </a>
+
+            <a href="#fast-food" class="category-card">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+                     alt="Cheeseburger">
+                <div class="category-content">
+                    <h3>Fast Food 🍔</h3>
+                    <p>Burgers, fries and sandwiches</p>
+                    <span class="explore-link">Explore Menu →</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- COMPLETE MENU -->
+    <section class="menu-section" id="menu">
+        <div class="section-heading">
+            <p class="eyebrow">FRESHLY PREPARED</p>
+            <h2>Explore Our Menu</h2>
+            <p>Discover your next favourite meal.</p>
+        </div>
+
+        <!-- ITALIAN -->
+        <div class="cuisine-section" id="italian">
+            <div class="cuisine-heading">
+                <div>
+                    <p class="eyebrow">CIAO, FOOD LOVERS!</p>
+                    <h2>🇮🇹 Italian Cuisine</h2>
+                    <p>Cheesy pizzas, comforting pasta and Italian classics.</p>
+                </div>
+                <a href="#categories" class="back-link">All Cuisines ↑</a>
+            </div>
+
+            <div class="menu-grid">
+                <article class="food-card">
+                    <div class="food-image">
+                        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80" alt="Margherita pizza">
+                        <span class="food-tag">Bestseller</span>
+                    </div>
+                    <div class="food-content">
+                        <span class="food-category">Italian</span>
+                        <h3>Margherita Pizza</h3>
+                        <p>Classic pizza topped with tomato sauce, cheese and herbs.</p>
+                        <div class="food-footer">
+                            <span class="price">₹179</span>
+                            <button class="add-btn" type="button">+ Add</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="food-card">
+                    <div class="food-image">
+                        <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80" alt="Italian pasta">
+                    </div>
+                    <div class="food-content">
+                        <span class="food-category">Italian</span>
+                        <h3>Creamy Italian Pasta</h3>
+                        <p>Delicious pasta tossed with a creamy sauce and herbs.</p>
+                        <div class="food-footer">
+                            <span class="price">₹199</span>
+                            <button class="add-btn" type="button">+ Add</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="food-card">
+                    <div class="food-image">
+                        <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80" alt="Farmhouse pizza">
+                    </div>
+                    <div class="food-content">
+                        <span class="food-category">Italian</span>
+                        <h3>Farmhouse Pizza</h3>
+                        <p>Pizza loaded with vegetables, cheese and Italian herbs.</p>
+                        <div class="food-footer">
+                            <span class="price">₹229</span>
+                            <button class="add-btn" type="button">+ Add</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- INDIAN -->
+        <div class="cuisine-section" id="indian">
+            <div class="cuisine-heading">
+                <div>
+                    <p class="eyebrow">DESI DELIGHTS</p>
+                    <h2>🇮🇳 Indian Cuisine</h2>
+                    <p>Traditional spices and comforting Indian favourites.</p>
+                </div>
+                <a href="#categories" class="back-link">All Cuisines ↑</a>
+            </div>
+
+            <div class="menu-grid">
+                <article class="food-card">
+                    <div class="food-image">
+                        <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=800&q=80" alt="Biryani">
+                        <span class="food-tag">Popular</span>
+                    </div>
+                    <div class="food-content">
+                        <span class="food-category">Indian</span>
+                        <h3>Chicken Biryani</h3>
+                        <p>Aromatic basmati rice cooked with spices and chicken.</p>
+                        <div class="food-footer">
+                            <span class="price">₹219</span>
+                            <button class="add-btn" type="button">+ Add</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="food-card">
+                    <div class="food-image">
+                        <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=800&q=80" alt="Indian curry">
+                    </div>
+                    <div class="food-content">
+                        <span class="food-category">Indian</span>
+                        <h3>Butter Chicken</h3>
+                        <p>Creamy tomato gravy prepared with rich Indian spices.</p>
+                        <div class="food-footer">
+                            <span class="price">₹249</span>
+                            <button class="add-btn" type="button">+ Add</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="food-card">
+                    <div class="food-image">
+                        <img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=800&q=80" alt="Paneer curry">
+                    </div>
+                    <div class="food-content">
+                        <span class="food-category">Indian</span>
+                        <h3>Paneer Butter Masala</h3>
+                        <p>Soft paneer cubes in a rich, creamy gravy.</p>
+                        <div class="food-footer">
+                            <span class="price">₹199</span>
+                            <button class="add-btn" type="button">+ Add</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- CHINESE -->
+        <div class="cuisine-section" id="chinese">
+            <div class="cuisine-heading">
+                <div>
+                    <p class="eyebrow">WOK & ROLL</p>
+                    <h2>🥢 Chinese Cuisine</h2>
+                    <p>Wok-tossed noodles, fried rice and delicious dumplings.</p>
+                </div>
+                <a href="#categories" class="back-link">All Cuisines ↑</a>
+            </div>
+
+            <div class="menu-grid">
+                <article class="food-card">
+                    <div class="food-image">
+                        <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=800&q=80" alt="Chinese noodles">
+                    </div>
+                    <div class="food-content">
+                        <span class="food-category">Chinese</span>
+                        <h3>Veg Hakka Noodles</h3>
+                        <p>Stir-fried noodles with vegetables and savoury sauce.</p>
+                        <div class="food-footer">
+                            <span class="price">₹149</span>
+                            <button class="add-btn" type="button">+ Add</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="food-card">
+                    <div class="food-image">
+                        <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=800&q=80" alt="Fried rice">
+                    </div>
+                    <div class="food-content">
+                        <span class="food-category">Chinese</span>
+                        <h3>Vegetable Fried Rice</h3>
+                        <p>Flavourful fried rice tossed with fresh vegetables.</p>
+                        <div class="food-footer">
+                            <span class="price">₹139</span>
+                            <button class="add-btn" type="button">+ Add</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="food-card">
+                    <div class="food-image">
+                        <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=80" alt="Chinese dumplings">
+                    </div>
+                    <div class="food-content">
+                        <span class="food-category">Chinese</span>
+                        <h3>Steamed Momos</h3>
+                        <p>Soft dumplings served with a spicy dipping sauce.</p>
+                        <div class="food-footer">
+                            <span class="price">₹99</span>
+                            <button class="add-btn" type="button">+ Add</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- FAST FOOD -->
+        <div class="cuisine-section" id="fast-food">
+            <div class="cuisine-heading">
+                <div>
+                    <p class="eyebrow">QUICK & DELICIOUS</p>
+                    <h2>🍔 Fast Food</h2>
+                    <p>Perfect bites for when hunger strikes.</p>
+                </div>
+                <a href="#categories" class="back-link">All Cuisines ↑</a>
+            </div>
+
+            <div class="menu-grid">
+                <article class="food-card">
+                    <div class="food-image">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80" alt="Cheeseburger">
+                        <span class="food-tag">Popular</span>
+                    </div>
+                    <div class="food-content">
+                        <span class="food-category">Fast Food</span>
+                        <h3>Classic Cheeseburger</h3>
+                        <p>A delicious burger with cheese, lettuce and special sauce.</p>
+                        <div class="food-footer">
+                            <span class="price">₹149</span>
+                            <button class="add-btn" type="button">+ Add</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="food-card">
+                    <div class="food-image">
+                        <img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=800&q=80" alt="French fries">
+                    </div>
+                    <div class="food-content">
+                        <span class="food-category">Fast Food</span>
+                        <h3>Crispy French Fries</h3>
+                        <p>Golden, crispy fries with a tasty seasoning.</p>
+                        <div class="food-footer">
+                            <span class="price">₹79</span>
+                            <button class="add-btn" type="button">+ Add</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="food-card">
+                    <div class="food-image">
+                        <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80" alt="Grilled sandwich">
+                    </div>
+                    <div class="food-content">
+                        <span class="food-category">Fast Food</span>
+                        <h3>Grilled Sandwich</h3>
+                        <p>A crunchy sandwich filled with fresh ingredients.</p>
+                        <div class="food-footer">
+                            <span class="price">₹119</span>
+                            <button class="add-btn" type="button">+ Add</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CART -->
+    <section class="cart-section" id="cart">
+        <div class="section-heading">
+            <p class="eyebrow">YOUR SELECTION</p>
+            <h2>Your Shopping Cart 🛒</h2>
+            <p>Your selected dishes will appear here.</p>
+        </div>
+
+        <div class="cart-container">
+            <div class="cart-empty">
+                <span class="cart-icon">🛍️</span>
+                <h3>Your cart is waiting!</h3>
+                <p>Explore our cuisines and choose something delicious.</p>
+                <a href="#categories" class="btn btn-primary">Browse Cuisines</a>
+            </div>
+
+            <div id="cart-items"></div>
+
+            <div class="cart-summary">
+                <p><span>Subtotal</span><strong>₹0</strong></p>
+                <p><span>Delivery Fee</span><strong>₹0</strong></p>
+                <p class="cart-total"><span>Total</span><strong>₹0</strong></p>
+            </div>
+
+            <p class="demo-note">
+                Demo website: no real orders or payments are processed.
+            </p>
+        </div>
+    </section>
+
+    <!-- CHECKOUT -->
+    <section class="checkout-section" id="checkout">
+        <div class="section-heading">
+            <p class="eyebrow">ALMOST THERE</p>
+            <h2>Delivery Details</h2>
+            <p>This is a demo checkout form.</p>
+        </div>
+
+        <div class="checkout-container">
+            <form>
+                <div class="form-group">
+                    <label for="customer-name">Full Name</label>
+                    <input type="text" id="customer-name" name="name"
+                           placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="customer-phone">Phone Number</label>
+                    <input type="tel" id="customer-phone" name="phone"
+                           placeholder="Enter your 10-digit phone number"
+                           pattern="[0-9]{10}" maxlength="10" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="customer-address">Delivery Address</label>
+                    <textarea id="customer-address" name="address"
+                              placeholder="Enter your delivery address" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    Place Demo Order
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about-section" id="about">
+        <div class="about-content">
+            <p class="eyebrow">OUR STORY</p>
+            <h2>Food That Brings People Together</h2>
+            <p>
+                At Spice & Bite, we bring together the comfort of Indian
+                food, the classics of Italian cuisine, the flavours of
+                Chinese dishes and the excitement of fast food.
+            </p>
+            <p>
+                Whether you want a spicy meal, a cheesy pizza or a quick
+                burger, there is something here for every craving.
+            </p>
+            <a href="#categories" class="btn btn-primary">Discover Cuisines</a>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+        <div class="section-heading">
+            <p class="eyebrow">SAY HELLO</p>
+            <h2>Contact Us</h2>
+            <p>Have a question or suggestion? Get in touch with us.</p>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-card">
+                <span>📍</span>
+                <h3>Location</h3>
+                <p>India</p>
+            </div>
+            <div class="contact-card">
+                <span>📞</span>
+                <h3>Phone</h3>
+                <p>Details coming soon</p>
+            </div>
+            <div class="contact-card">
+                <span>✉️</span>
+                <h3>Email</h3>
+                <p>Details coming soon</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#home" class="logo">Spice <span>&</span> Bite</a>
+        <p>Delicious food, memorable moments.</p>
+        <p class="copyright">
+            &copy; 2026 Spice & Bite. Student project for learning purposes.
+        </p>
+    </footer>
+
+</body>
+</html>
